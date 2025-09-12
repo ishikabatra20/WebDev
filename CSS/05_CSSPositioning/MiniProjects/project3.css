@@ -1,0 +1,46 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flag {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stripe {
+  flex: 1;
+}
+
+.red {
+  background: #ce1126; /* Official Laos red */
+}
+
+.blue {
+  background: #002868; /* Official Laos blue */
+  position: relative;
+  flex: 2;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+ top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
